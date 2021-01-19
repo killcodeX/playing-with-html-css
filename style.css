@@ -86,20 +86,53 @@ body{
 /* ----------------------------------------------- Section 1 ----------------------------------------------------------*/
 
 .home-banner{
-  width: 40%;
-}
-
-.banner-para{
-  text-align: center;
+  width: 36%;
 }
 
 .banner-heading{
   color: var(--heading-color);
-}
-
-.banner-subtitle{
-  width:50%;
   text-align: center;
   display: block;
   margin: 0 auto;
+  padding-bottom: 15px;
+}
+
+.banner-subtitle{
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.banner-para{
+  text-align: center;
+  width: 55%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 17px;
+}
+
+.social-icons{
+  display: flex;
+  justify-content: center;
+}
+
+.icons{
+  font-size: 22px;
+  margin:0px 15px;
+}
+
+.icons:hover{
+  cursor: pointer;
+}
+
+/* ----------------------------------------------- Section 2 ----------------------------------------------------------*/
+.project-subtitle{
+  padding-top: 20px;
+  width: 50%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+  font-size: 17px;
 }
