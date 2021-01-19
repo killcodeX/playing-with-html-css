@@ -82,3 +82,24 @@ body{
 .checkbox:checked + .label-checkbox .ball{
     transform: translateX(24px);
 }
+
+/* ----------------------------------------------- Section 1 ----------------------------------------------------------*/
+
+.home-banner{
+  width: 40%;
+}
+
+.banner-para{
+  text-align: center;
+}
+
+.banner-heading{
+  color: var(--heading-color);
+}
+
+.banner-subtitle{
+  width:50%;
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+}
